@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-601055344</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[We piled ourselves back into the rover and drove off, while the automated AI called out to us,
+
+<i>"Thank you for visiting your local refilling station! From all of us here at MSS, stay secure and stay safe!"</i>]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+</Event>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Crashed Rover Map" />
+    <Text><![CDATA[A crashed rover wreck draws closer directly in our path. Upon closer inspection, it appears to have been deserted for only a few days. Claw marks slashed along its hull with a torn open door suggests a pack of Hounders attacked, and did away with the occupants.
+
+After entering the rover to investigate its contents, a message plays from its speakers.
+
+<i>"Unidentified occupants, suppress classified information leakage, initiating irreversible self destruct in 0 seconds"</i>
+
+Time begins ticking down from the speakers. We don't have time to loot everything inside the rover.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Grab alcohol kegs and boxes of rations]]></Text>
+        <SuccessEvent id="CA944E02" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Grab oxygen tanks and fuel tins]]></Text>
+        <SuccessEvent id="72CB2111" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>CYBERPUNK</RequiredTrait>
+        <Text><![CDATA[<b>{Cyberpunk}</b> Meg tells everyone to escape, as she grabs the rovers data storage card]]></Text>
+        <SuccessEvent id="06CB72FA" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

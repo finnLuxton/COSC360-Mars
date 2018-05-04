@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>38360374</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="13" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="-1" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>PRACTICAL</RequiredTrait>
+        <Text><![CDATA[Heal Kate Hex for 8 hp, costing 1 alcohol]]></Text>
+        <SuccessEvent id="DDEF8471" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="-1" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>GAMBLER</RequiredTrait>
+        <Text><![CDATA[Heal Miles Hannigan for 8 hp, costing 1 alcohol]]></Text>
+        <SuccessEvent id="41864BE1" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="-1" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>ROBOT</RequiredTrait>
+        <Text><![CDATA[Heal Isaac Asimo V1.0 for 8 hp, costing 1 alcohol]]></Text>
+        <SuccessEvent id="9724FD9F" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[<BACK>]]></Text>
+        <SuccessEvent id="DC2C9F90" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[Randy motioned with the gun, and Reed and Miles moved to restrain Isaac. They grabbed him by both arms and forced him to the ground. As Isaac cried out for help, Kate grabbed her tools, took off Isaac’s helmet, and unscrewed the panel on the back of his head.
+
+Isaac’s muffled screams condemned us. Murderers. For our actions against our fellow man, he cursed. Kate reached into his head, tore out a handful of wires, and the light faded from his eyes. Meg cradled his lifeless head, patting it affectionately. She whispers a promise that she’ll make sure we fix him up as soon as we get there.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="1" min="-100" max="-100" damageProduct="13" allowLethalBlows="True" />
+</Event>

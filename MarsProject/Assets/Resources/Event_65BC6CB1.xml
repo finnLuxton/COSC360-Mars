@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-922311649</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[Kate hopped out of the rover, grabbed her tools from our storage and headed over to the other survivors. She hopped underneath the hull of their rover and got to work. About half an hour later, Kate instructs the other survivors to try turning it on now.
+
+Miraculously, their rover sputters to life. The other survivors hug each other in tears. They claim that Kate saved their life, and gave her half of their rations and oxygen as a reward. Kate took her earnings, and returned back to our rover.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="0" fuel="0" oxygen="20" rations="30" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

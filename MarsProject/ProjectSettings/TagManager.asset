@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - title_music
+  - char6_portrait
+  - history_text
+  - history_panel
+  - employee_info
+  - bio_close
+  - nextBtn_2
+  - bio_panel
+  - bio_portrait
+  - char5_button
+  - char5_name
+  - char5_portrait
+  - bio_button
+  - char3_portrait
+  - char4_portrait
+  - navmarker_arrow_left
+  - char1_name
+  - trait_title
+  - char6_button
+  - char2_button
+  - bio_traits
+  - bio_history
+  - bio_age
+  - trait_helper
+  - char2_portrait
+  - prevBtn_1
+  - bio_text
+  - char1_portrait
+  - char2_name
+  - bio_name
+  - navmarker_arrow_right
+  - char3_button
+  - char4_name
+  - char3_name
+  - screen2
+  - char6_name
+  - char4_button
+  - char1_button
+  - char5_health
+  - fill5
+  - bio_health
+  - bio_fill
+  - char4_health
+  - fill4
+  - char1_health
+  - fill1
+  - char3_health
+  - fill3
+  - char2_health
+  - fill2
+  - char6_health
+  - fill6
+  - difficulty_name
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

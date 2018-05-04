@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1623770927</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Hostage Situation" />
+    <Text><![CDATA[We quickly alerted the bandits to our presence, and offered pay the ransom in exchange for letting the civilian free.
+
+The bandits smile and one kicks the civilian to the floor, walks over to our rover and takes the oxygen. The bandits pile into their rover and leave.
+
+The crowd profusely thanks us for our selfless act. One mentions that they could not reimburse us for our oxygen, but have plenty of alcohol and some fuel that they will gladly give.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="10" fuel="20" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

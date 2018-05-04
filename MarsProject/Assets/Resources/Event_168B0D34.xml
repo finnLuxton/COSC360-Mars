@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-2038455412</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Well Dressed Survivor" />
+    <Text><![CDATA[<i>"Oh? Not agreeable terms? Well, I won't force you! I only have satisfied customers in my book, so Ta-ta for now!"</i>
+
+The Well Dressed Survivor turns away from the rover, and begins to walk into the distance, whistling to himself as he goes.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+</Event>

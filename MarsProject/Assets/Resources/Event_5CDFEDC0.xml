@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>794392854</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Drinking Contest" />
+    <Text><![CDATA[After some time had passed, an uproar of laughter is heard over the comms. 
+
+Our crewmate returns, swaying left and right with a wide grin smacked on their face, dragging 2 kegs of homemade mars moonshine.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="2" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="10" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

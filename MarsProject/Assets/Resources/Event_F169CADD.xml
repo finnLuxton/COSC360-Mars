@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>934336322</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Sonar Filled With Signals" />
+    <Text><![CDATA[Kate slams her foot on the accelerator straight into the middle of the hounders.
+
+Before the beasts can even react, the rover is slicing through any gaps in the mass, and running over any hounders that happen to be in the way.
+
+As Kate drives around a particularly large hounder, she failed to spot a large boulder behind him, and slams straight into it. The rover still runs fine, but the whiplash injures everyone in the vehicle.
+
+Soon enough, Kate is able to maneuver the rover out of the mass, and drives off while the hounders give up the chase.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="1" min="-10" max="-5" damageProduct="30030" allowLethalBlows="True" />
+</Event>

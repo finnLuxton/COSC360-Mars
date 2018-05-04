@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1912328468</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Rover Travel" />
+    <Text><![CDATA[With our distress beacon active, we patiently waited for any signs of life. 
+
+The weight of our situation could be felt in the air around us, as a full day passed without anything notable occuring.
+
+All we could do was wait until tomorrow, and hope that somebody would find us.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+</Event>

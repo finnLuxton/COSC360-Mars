@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-1921015079</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[Thank you. Calibration 50% complete.
+
+Please move to the <b><Bio></b> screen, and click any of the survivor portraits to view their information.
+
+This will display their biography and traits. Traits are qualities that define that survivor, and will change how you wish to proceed in any events.
+In the event that a survivor's HP reaches 0, they have died and the crew does not have access to their traits anymore. 
+
+To finish calibration, please select the <CALIBRATE> button one more time, and <COMMIT>.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[<CALIBRATE>]]></Text>
+        <SuccessEvent id="6A4BC0DB" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

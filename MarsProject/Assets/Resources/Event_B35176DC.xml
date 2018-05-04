@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Rover Travel" />
+    <Text><![CDATA[A voice cracked the silence of the rover as the comms fired up to a local distress broadcast coming from a nearby settlement.
+
+<i>"Oh for god's sake, anyone PLEASE! Our supply lifting drone has gone bloody nuts, it crushed our mechanic and we can't do shit. Someone please come and stop this thing!"</i>
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Follow the distress signal]]></Text>
+        <SuccessEvent id="95636AF9" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Not our problem, move on]]></Text>
+        <SuccessEvent id="B06561A5" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

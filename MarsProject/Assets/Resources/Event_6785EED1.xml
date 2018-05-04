@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1075218452</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Well Dressed Survivor" />
+    <Text><![CDATA[Reed remarks that the Well Dressed Survivor's rucksack could be filled with rocks for all we know.
+
+This piqued the Well Dressed Survivors interest, as he straightened his posture.
+
+<i>"Ah, so we have a fellow businessman on board? Very well, peruse my wares! I do hope you consider my offer?"</i>
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Look in the rucksack]]></Text>
+        <SuccessEvent id="E0F3B984" />
+        <FailureEvent id="CBC9D0AF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

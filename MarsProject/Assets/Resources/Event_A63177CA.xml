@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Rover Travel" />
+    <Text><![CDATA[Something we encountered back there must have hit and punctured our oxygen tank. 
+
+Miles was the first to notice and Kate managed to cover it with duct-tape.
+
+The repairs are too much, and oxygen is leaking at a constant rate. Doing a quick calculation, Meg found that there is only enough oxygen for 5 people to make it to the sister base.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Send an emergency distress signal and keep driving, in the hope that somebody from the base finds you first.]]></Text>
+        <SuccessEvent id="C841B0D0" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Set the rover to autopilot, and slow our metabolism hoping we can conserve enough oxygen for the trip.]]></Text>
+        <SuccessEvent id="12031655" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="-12" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[<b>{Trigger Happy}</b> Kill one comrade to save the rest.]]></Text>
+        <SuccessEvent id="E56F24AC" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

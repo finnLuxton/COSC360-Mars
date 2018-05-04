@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>154777966</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_An Interesting Bomb" />
+    <Text><![CDATA[Kate told everyone to stand back, so we all huddled behind cover while she ripped open a panel, revealing a mess of wires. Kate chuckled to herself confidently, and with the pliers in hand she cut a large red wire.
+
+A blinding white flash later, the bomb had erupted right in Kate's face sending her flying into a wall, while the explosion destroyed all of the supplies in the room. We quickly rushed to her aid, but she was unresponsive. 
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="1" min="-90" max="-90" damageProduct="7" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Inform the crowd outside what had happened]]></Text>
+        <SuccessEvent id="0069C5F5" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

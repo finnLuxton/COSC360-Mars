@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1209796955</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[A bandit exits the vehicle, laughs to himself and exclaims,
+
+<i>”Oh man you guys are pathetic. Who the hell runs outta fuel in the middle of nowhere? Look, we’re feelin generous today. Hows about you give us some alcohol in exchange for some fuel huh?”</i>]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="-30" fuel="15" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Accept the trade]]></Text>
+        <SuccessEvent id="287A418D" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Decline]]></Text>
+        <SuccessEvent id="EA61A915" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

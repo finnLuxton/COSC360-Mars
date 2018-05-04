@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1075218452</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Well Dressed Survivor" />
+    <Text><![CDATA[Reed remarks that the Well Dressed Survivor's rucksack could be filled with rocks for all we know. The Well Dressed Survivor hangs their head in disappointment.
+
+<i>"Taking away the fun now are you? No no no... that won't do. With the state of this economy, isn't chance is the only friend we truly have?"</i>
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="-10" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Accept the trade]]></Text>
+        <SuccessEvent id="9C3CACC0" />
+        <FailureEvent id="99754B40" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Refuse the trade]]></Text>
+        <SuccessEvent id="168B0D34" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

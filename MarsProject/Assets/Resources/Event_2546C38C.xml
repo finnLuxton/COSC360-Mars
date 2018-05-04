@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-406468999</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Bandit Holdup" />
+    <Text><![CDATA[Reluctantly, we threw the alcohol out of the door towards them. Four bandits exited the red rover and walked over to collect their earnings. 
+
+Once they had returned to their rover, a message came over the comms.
+
+<i>”You made a smart decision today children. Now run along! Don’t want you interrupting me and my next customer.”</i>]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+</Event>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>302192213</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[We woke to find paramedics all around us. They said we were extremely lucky they found us when they did. Just ten more minutes and we all would have been dead. 
+
+I would have breathed a sigh of relief but I was too busy puffing fresh oxygen. Luck, it seemed, had never left our side.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0.2" min="-5" max="0" damageProduct="2310" allowLethalBlows="True" />
+</Event>

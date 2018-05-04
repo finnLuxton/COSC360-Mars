@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-888226720</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[We couldn’t possibly survive fighting these guys, and we didn’t bother waiting around to find out what they wanted. Accelerating the rover to get out of there, we accidentally crashed into the back of a bandit rover, injuring ourselves. 
+
+Recovering quickly, we drove back around the cliff-face and managed to escape them. Guess those old bandit rovers aren't as fast as they hoped.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0.8" min="-30" max="-20" damageProduct="30030" allowLethalBlows="True" />
+</Event>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1513939291</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Bandit Bounty" />
+    <Text><![CDATA[A hail of gunfire is erupted towards the bandits, taking them by surprise as they dive for cover. Both sides return fire to each other for an extended amount of time.
+
+It doesn't take long until the bandit's side falls silent. After we cautiously approached from the side, it was clear that all the bandits were dead. It didn't take long to locate Razors corpse, and take his arm blade as proof of our bounty.
+
+After handing in the proof, we received our bounty reward, and continued onwards with our journey.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0.95" min="-80" max="-40" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="20" fuel="20" oxygen="20" rations="30" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

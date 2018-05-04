@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-1788646663</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Rouge AI" />
+    <Text><![CDATA[Before anyone can jump out of the rover and open fire on the drone, Randy motions everyone to stop moving. He calmly walks out of the rover with his finger on the trigger, aiming at the drones head. Randy fires a single bullet, tearing through its main circuit board. It immediately stops in place, followed by its arms dropping down by its side. 
+
+Celebration is heard by the civilians, with one man rushing up to Randy, saying
+
+<i>"Well I'll be a hounders uncle, you done stop that thing in one bullet! Thanks alot for that, it might be broken now but we can just order the new part in later. We really appreciate the fact you folks came all the way down here anyways. We got a box of rations you guys can have, and we could also fuel up your rover with a bit of what we have left."</i>
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="0" fuel="5" oxygen="0" rations="5" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>True</RepeatEvent>
+    <Image source="Event_Crazy Dig" />
+    <Text><![CDATA[While traversing a range of sand dunes, Miles pipes up and points out the window at a small sand dune, exclaiming that there's something underneath it and we should check it out.
+
+Miles predictions have been helpful on past expeditions, so it might be worth checking out, but that sand dune would easily cost us a whole day to dig up.
+]]></Text>
+    <RequiredTrait>INSIGHTFUL</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Keep driving.]]></Text>
+        <SuccessEvent id="7F6B03A7" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.5" alcohol="0" fuel="0" oxygen="0" rations="0" time="-1">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Grab some digging tools from our storage and get to work.]]></Text>
+        <SuccessEvent id="841DCCE9" />
+        <FailureEvent id="FBCEB549" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

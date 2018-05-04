@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Hounders" />
+    <Text><![CDATA[As we drove over the top of a hill, we saw an overturned rover in the distance. As we approached it, two large <b>hounders</b> appeared from behind the rover. 
+
+Hounders are creatures that escaped from a laboratory aiming to create life that could survive Mars’ environment. They’re incredibly hostile creatures resembling black, bear-sized, naked mole rats, and are now a plague for anyone working outside unprotected.
+
+Upon hearing the sound of our rover, the two hounders screeched, and charged at us.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Run]]></Text>
+        <SuccessEvent id="4B81380D" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Fight]]></Text>
+        <SuccessEvent id="494BA34D" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

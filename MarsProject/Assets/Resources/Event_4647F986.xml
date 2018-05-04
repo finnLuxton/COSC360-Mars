@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-226632698</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[All of us ran backwards out of the cave and eventually reached outside. As we got back into the rover, the hounders zoom out of the cave, and jump to attack the rover. They begin clawing at its hull, but after putting the rover in drive and speeding off, the hounders fall to the ground and retreat back into their cave. 
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+</Event>

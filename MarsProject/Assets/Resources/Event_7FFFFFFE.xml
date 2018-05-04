@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>True</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[TEST EVENT]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="0" max="0" damageProduct="1" allowLethalBlows="False" />
+    <Choice chance="0.8" alcohol="-10" fuel="10" oxygen="80" rations="-100" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[choice 1]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.6" alcohol="100" fuel="100" oxygen="100" rations="100" time="10">
+        <RequiredTrait>ALCOHOLIC</RequiredTrait>
+        <Text><![CDATA[choice 2]]></Text>
+        <SuccessEvent id="000000FE" />
+        <FailureEvent id="00000100" />
+        <UnlocksEvent id="00000101" />
+    </Choice>
+    <Choice chance="0.4" alcohol="100" fuel="100" oxygen="100" rations="100" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[choice 3]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.3" alcohol="100" fuel="100" oxygen="100" rations="100" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[choice 4]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="100" fuel="100" oxygen="100" rations="100" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[choice 5]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

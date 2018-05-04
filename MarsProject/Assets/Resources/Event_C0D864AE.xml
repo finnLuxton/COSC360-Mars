@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>306228368</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Surrendering Rover" />
+    <Text><![CDATA[We all exited the rover with our weapons trained on their overturned rover. One of us collected the supplies and hauled them back to our storage. After we all returned to the vehicle, we drove away, leaving them in the dust.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+</Event>

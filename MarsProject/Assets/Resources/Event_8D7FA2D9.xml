@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Calibration" />
+    <Text><![CDATA[Welcome unknown user to the <b>M S S</b> personal entry log.
+
+This log features three screens. To navigate between screens, please press the arrows on the sides of this interface.
+
+To begin, please navigate to the <b><Actions></b> screen, and select <CALIBRATE>, followed by the <COMMIT> button.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[<CALIBRATE>]]></Text>
+        <SuccessEvent id="E56E64D8" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

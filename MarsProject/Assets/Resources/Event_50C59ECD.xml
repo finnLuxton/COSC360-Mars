@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Rover Travel" />
+    <Text><![CDATA[A distress signal was picked up by our rover, and a distressed voice comes over the speakers. 
+
+<i>”Finally someone picks up! Listen, you have to help us! We just bought some supplies from a bandit caravan, and in one of the boxes, some scary bomb looking thing was in there! We’re just alcohol farmers, we can’t deal with this stuff. We’ll give you anything, just <b>please help us!</b>”</i>]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Keep driving. Sounds like something way out of our league.]]></Text>
+        <SuccessEvent id="F87007B0" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Go see what they are talking about.]]></Text>
+        <SuccessEvent id="0939B96E" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

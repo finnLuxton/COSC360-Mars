@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-1658712990</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Fuel Stop" />
+    <Text><![CDATA[In the distance, a rover can be seen driving towards us. After they approach, they slowly come to a stop.
+
+After a short while of silence, their door swings open, and someone from their rover throws some tins of fuel outside. They close their doors, and begin to drive off.
+
+At least there are some worthwhile people in this wasteland.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="0" fuel="15" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[Several hours later, Isaac can see the measurable difference on his companion’s life signs. Trying to do everything he can, Isaac holds his breath for a minute. Two minutes. Ten minutes.
+
+<i>’This can’t be normal,’</i> he thought.
+
+Isaac kept holding his breath as the sister base rolled into view.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+</Event>

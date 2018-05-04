@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Well Dressed Survivor" />
+    <Text><![CDATA[<i>"Oh this is just superb! Nothing beats a well-negotiated trade. Ta-ta for now!"</i>
+
+After returning to the rover, we opened up the rucksack to reveal a small tank of oxygen, and a few tins of fuel. 
+
+Before anyone could comment on its contents, someone mentioned that the Well Dressed Survivor was nowhere to be seen, with even the sensors falling silent.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="2" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="0" fuel="30" oxygen="30" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/UI_TitleScreen.unity
+    guid: 55b5f3a0347a041dea963936fddc4f26
+  - enabled: 1
+    path: Assets/Scenes/UI_SplashScreen_Intro.unity
+    guid: 8bc7d63bf92544103a4d01faf51c5582
+  - enabled: 1
+    path: Assets/Scenes/UI_Screen1.unity
+    guid: 32ad4924ca4c3436fbeb063f0fd5c7e3
+  - enabled: 1
+    path: Assets/Scenes/UI_Screen2.unity
+    guid: cc7121c06259043cb9a34529449f596c
+  - enabled: 1
+    path: Assets/Scenes/UI_Screen3.unity
+    guid: c35caa3f1076c4e85adc45f14b95d517
+  - enabled: 1
+    path: Assets/Scenes/UI_SplashScreen_Win.unity
+    guid: c28450d928745444ca1810d4fc961ca2
+  - enabled: 1
+    path: Assets/Scenes/UI_SplashScreen_Lose.unity
+    guid: f5c47b7c0963647228acfd5203138e46
+  - enabled: 0
+    path: Assets/Scenes/DebugEditor.unity
+    guid: 3e3095ba41fd4475ba5606b8a1f68feb
+  - enabled: 0
+    path: Assets/Scenes/EventEditor.unity
+    guid: a5ae834cafefd44a49c03acd6e045ea4
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: f435f95676d2541418779c272acf3f86

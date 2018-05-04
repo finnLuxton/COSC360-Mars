@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1623770927</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Hostage Situation" />
+    <Text><![CDATA[One of our crewmembers attempts to reason with the bandits, promising them that the settlement will pay the oxygen price next time. This is met by nodding in the crowd.
+
+The bandits look to each other, and the middle one grows a scowl in his face, and spits on the civilian further pushing the gun barrel into his back.
+
+<i>"You scum ain't gunna get another chance! Don't make that mistake again!"</i>
+
+The bandits walk away into their rover, and drive off into the distance. The crowd breaths a collective sigh of relief, one man walks over gives us this thanks hands us a bag and turns back to work.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="12" fuel="12" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

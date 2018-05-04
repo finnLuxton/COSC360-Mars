@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-1749697445</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[Kate’s body slumps forward, her brains splattered all over the windscreen. A quick and painless death for a good woman.
+
+The others looked up, their shock and disgust reflected in their eyes. Seconds later, Miles and Reed charged Randy, knocking away his weapon and slamming him against the wall. Unconscious, they threw him out the door. A slow and torturous death by asphyxiation was all that awaited him now.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="1" min="-100" max="-100" damageProduct="35" allowLethalBlows="True" />
+</Event>

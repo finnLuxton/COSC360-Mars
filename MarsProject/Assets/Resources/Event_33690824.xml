@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>True</RepeatEvent>
+    <Image source="Event_Bandit Toll Blockade" />
+    <Text><![CDATA[As we were driving along the skirting of a seemingly unending cliff-face, we came across a large opening leading to the other side.
+
+However, the opening had a large metal gate with two poorly constructed watchtowers behind, both adorning banners emblazoned with red skulls.
+Armed men in ragged spacesuits patrolled from above.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Keep searching for a safe route]]></Text>
+        <SuccessEvent id="19C26921" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Approach the checkpoint]]></Text>
+        <SuccessEvent id="01AE74FF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

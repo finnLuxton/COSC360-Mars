@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>387299592</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[Meg is familiar with general rover consoles, and quickly spots the data storage card near the driver's seat. She quickly swiped it and yelled at everyone to get as far away from the rover as possible.
+
+As we all piled outside, a loud droning noise echoes from the crashed rover, as it begins to fold and compress in on itself continuously until the rover is just a small ball of crushed jagged metal lying on the ground.
+
+Meg quickly moved to our rover and plugged in the card to examine the contents. An updated map appears on our console, showing a path cutting straight through a mountain with a storage cache of resources stashes in the middle. The shortcut gave us an extra days time ahead of the storm, with a storage cache only have small amount of resources left behind.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="0" fuel="10" oxygen="10" rations="8" time="1">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

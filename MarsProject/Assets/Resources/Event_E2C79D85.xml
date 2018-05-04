@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>True</RepeatEvent>
+    <Image source="Event_Cave Entrance" />
+    <Text><![CDATA[While driving along a cliff face, we came upon a dark cave entrance. 
+
+The opening had a trail of blood leading into it, as if something had been dragged inside.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Ignore the cave and move on]]></Text>
+        <SuccessEvent id="32AE3BDD" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.5" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Park the rover and explore the cave]]></Text>
+        <SuccessEvent id="F27DDC06" />
+        <FailureEvent id="BFD16BFB" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

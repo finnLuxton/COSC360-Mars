@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>True</RepeatEvent>
+    <Image source="Event_Sonar Filled With Signals" />
+    <Text><![CDATA[Just as our rover edged over the side of a sand dune, the radars picked up at least 50 slow moving life signals ahead. 
+
+In the distance, a large black mass of hounders slowly moves towards the right.
+
+If we were to wait for them to pass safely, it could easily take a whole day.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="-1">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Wait a full day until the coast is clear]]></Text>
+        <SuccessEvent id="91FAFCBE" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.3" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Attempt to sneak past the hounders]]></Text>
+        <SuccessEvent id="10D72FFC" />
+        <FailureEvent id="8AF46554" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.7" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>CAR_JOCKEY</RequiredTrait>
+        <Text><![CDATA[<b>{Car Jockey}</b> Find the clearest gap through the hounders, and floor it]]></Text>
+        <SuccessEvent id="581ECA4F" />
+        <FailureEvent id="F169CADD" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

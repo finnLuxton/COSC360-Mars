@@ -1,0 +1,11 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "MarsBuild.data.unityweb",
+"asmCodeUrl": "MarsBuild.asm.code.unityweb",
+"asmMemoryUrl": "MarsBuild.asm.memory.unityweb",
+"asmFrameworkUrl": "MarsBuild.asm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

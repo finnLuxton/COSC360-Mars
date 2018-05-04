@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1250387950</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_An Interesting Bomb" />
+    <Text><![CDATA[With a shaky hand, the wire was snipped, and suddenly all of the lights on the bomb light up at once, with a high pitched noise squealing from the bomb. 
+
+Panic erupted in the crew, as we all began to sprint away just as the bomb exploded. Shrapnel from the bombs slices through the crew, and the resulting damage from the bomb has destroyed all other supplies that were in the room.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0.9" min="-30" max="-50" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Inform the crowd outside]]></Text>
+        <SuccessEvent id="0069C5F5" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

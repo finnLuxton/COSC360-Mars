@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1974000042</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Crazy Dig" />
+    <Text><![CDATA[After digging for a good few hours, we eventually found signs of a building buried deep in the sand. We kept excavating until dusk loomed over our heads. We eventually found an entrance into the building, where inside lay two space suits with skeletons inside. 
+
+After looting the contents of the room, we uncovered a large amount of oxygen tanks and some fuel tins. Considering there was no food, they must have been sanded in and succumbed to starvation. We made our way back to our rover, and carried on.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="0" fuel="24" oxygen="24" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

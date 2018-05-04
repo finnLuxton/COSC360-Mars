@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[Reed looks straight down the barrel of the gun.
+<i>”I should have done this long ago,”</i> he says, reaches up and pulls Randy’s trigger.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="1" min="-100" max="-100" damageProduct="2" allowLethalBlows="True" />
+</Event>

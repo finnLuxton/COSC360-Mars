@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>387299592</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[Amidst the frenzy, someone shouts to grab all the oxygen tanks and fuel canisters we can carry.
+
+We hastily grabbed what we could and booked it out of the rover towards ours, just as a loud droning noise echoes from the crashed rover, as it begins to fold and compress in on itself continuously, until the rover is just a small ball of crushed jagged metal laying on the ground.
+
+We wondered what information would be so valuable to implement such a desperate function on a rover.
+Packing our newfound supplies into our storage, we headed back off into our route.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="0" fuel="12" oxygen="12" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

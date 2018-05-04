@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>154777966</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_An Interesting Bomb" />
+    <Text><![CDATA[We had absolutely no clue what we were doing.
+
+One of us lifted a panel to reveal another set of blinking lights and 3 large of wires. 
+By looking at some of the wires origins, we attempted pinpoint where a powersource would be, but none of us had seen hardware like this before. 
+
+With the time we had left, we realised we would have to cut a wire, and hope for the best.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="0.31" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Cut the Red Wire]]></Text>
+        <SuccessEvent id="7279A5BC" />
+        <FailureEvent id="8EB67EC8" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.3" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Cut the Blue Wire]]></Text>
+        <SuccessEvent id="7279A5BC" />
+        <FailureEvent id="8EB67EC8" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.3" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Cut the Yellow Wire]]></Text>
+        <SuccessEvent id="7279A5BC" />
+        <FailureEvent id="8EB67EC8" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.3" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Cut the Pink and Orange Polkadot Wire]]></Text>
+        <SuccessEvent id="7279A5BC" />
+        <FailureEvent id="8EB67EC8" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

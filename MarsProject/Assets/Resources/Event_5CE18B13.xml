@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-226632698</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[Gunfire erupted towards the hounders as they approached us with terrifying speed. With their claws, they charged right into us and began slashing in any direction they could. Eventually after being shot at enough, both hounders fell to the ground lifelessly. 
+
+We were able to investigate the pile of corpses in the middle of the room. All the suits were torn apart, with unrecognizable corpses inside. We were able to scavenge some supplies from the bodies, followed by us returning to our rover.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0.9" min="-50" max="-40" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="10" fuel="10" oxygen="10" rations="10" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

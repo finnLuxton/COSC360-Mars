@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-616019086</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Broken Down" />
+    <Text><![CDATA[As we reached the coordinates, we saw a stationary rover in the distance. Next to it are two people investigating the hull of the rover. As we approach they notice us and send a message to our rover’s comms.
+
+<i>”Hey! Someone finally came! Please tell me you guys know how to fix these things!”</i>]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="-1">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[We spend the rest of the day helping them fix their rover]]></Text>
+        <SuccessEvent id="BA905F43" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[They are defenseless. We play bandit and rob them]]></Text>
+        <SuccessEvent id="5338F7B4" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>PRACTICAL</RequiredTrait>
+        <Text><![CDATA[{Practical} Kate fixed the car in half time so we didn’t even lose a day]]></Text>
+        <SuccessEvent id="65BC6CB1" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-242212078</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Fuel Stop" />
+    <Text><![CDATA[A dust cloud can be seen in the distance. As it got closer, we saw it to be another rover. It parked up next to us, and a message is broadcast to our comms.
+
+<i>”Heya guys! We noticed your distress beacon, and you look like your in a spot of trouble there. We got some fuel here with us, if your willing to trade for it?”</i>]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="-10" fuel="15" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Accept the trade]]></Text>
+        <SuccessEvent id="C9710241" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Decline]]></Text>
+        <SuccessEvent id="32104FFC" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

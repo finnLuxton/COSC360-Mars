@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>306228368</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Surrendering Rover" />
+    <Text><![CDATA[A heavily injured survivor shuffles from behind the overturned rover. The same voice over the comms returns.
+
+"Oh thank god. Bandits attacked us about an hour ago, took most of our supplies and trashed our rover. We just assumed you were one of their secondary parties. Our rover is almost repaired. Bless your souls for not taking advantage of us."
+ 
+The survivor returns to their rover, hope returning to his face.
+We took this as our cue to leave.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+</Event>

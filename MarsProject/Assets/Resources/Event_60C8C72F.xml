@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Hostage Situation" />
+    <Text><![CDATA[We picked up a distress beacon, with a computerized voice repeating,
+<i>"UNDER ATTACK - SEND HELP"</i> 
+
+Approaching the coordinates, we discovered a small alcohol producing settlement with a commotion happening in the center.
+
+Three bandits have guns trained on a civilian kneeling in front of them, shouting at the crowd watching.
+
+<i>"We warned you worthless low lives, what would happen if you missed out on another oxygen payment. I hate to do this, but we gotta make an example of ya."</i>
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="-15" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Help out the settlement and pay the oxygen]]></Text>
+        <SuccessEvent id="3BCF3C1F" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.25" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Attempt to reason with the bandits]]></Text>
+        <SuccessEvent id="C793FF85" />
+        <FailureEvent id="009B78F9" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>COMPASSIONATE</RequiredTrait>
+        <Text><![CDATA[{Compassionate} Point out that killing the survivors won't solve their problem
+]]></Text>
+        <SuccessEvent id="BF387303" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.5" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>TRIGGER_HAPPY</RequiredTrait>
+        <Text><![CDATA[{Trigger-happy} Attempt to take out the bandits before they can act]]></Text>
+        <SuccessEvent id="CC3B2402" />
+        <FailureEvent id="EA67166C" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

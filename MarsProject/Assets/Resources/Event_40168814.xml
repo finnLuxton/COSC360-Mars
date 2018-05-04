@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Well Dressed Survivor" />
+    <Text><![CDATA[Our sensors picked up a single slow moving entity in the distance. After approaching closer, we discovered a single lone survivor. He had a crudely painted on moustache and monocle on his visor, and a large brown rucksack slung over his shoulder. As he notices you, he exclaims
+
+<i>"Good day fellow travelers! Congratulations on being today's first customer! I have a proposition for you all. If you were to supply me with about 10 units of alcohol, in return you can have all that is within my bag of treasures!"</i>
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="-10" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Accept the trade]]></Text>
+        <SuccessEvent id="9C3CACC0" />
+        <FailureEvent id="99754B40" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Refuse the trade]]></Text>
+        <SuccessEvent id="61FE16E2" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.4" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>CHARLATAN</RequiredTrait>
+        <Text><![CDATA[<b>{Charlatan}</b> Attempt to convince the Well Dressed Survivor into revealing the contents of the rucksack]]></Text>
+        <SuccessEvent id="6785EED1" />
+        <FailureEvent id="867FA38C" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.5" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>GAMBLER</RequiredTrait>
+        <Text><![CDATA[<b>{Gambler}</b> Propose a coin toss, where the winner gets it all.]]></Text>
+        <SuccessEvent id="F16B7673" />
+        <FailureEvent id="0EA68356" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

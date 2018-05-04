@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-888226720</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[Kate immediately got into gear, and accelerated the hell out of there. She quickly slipped through a gap between 2 rovers, and flew off into the distance. The bandits began firing at us with some bullets piercing through the rovers hull.
+
+We eventually lost them thanks to Kates expert driving skills, and kept driving away as far as we could.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-20" max="-10" damageProduct="30030" allowLethalBlows="True" />
+</Event>

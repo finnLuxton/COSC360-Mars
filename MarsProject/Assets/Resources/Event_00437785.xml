@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>794392854</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Drinking Contest" />
+    <Text><![CDATA[After some time had passes, an uproar of laughter is heard over the comms, followed by a loud thud and cheering. Not long after, two of the other rover's passengers were seen dragging our unconscious crewmate back to our rover.
+
+After dropping them off, they thanked us for an entertaining night and left back to their rover.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="2" allowLethalBlows="True" />
+</Event>

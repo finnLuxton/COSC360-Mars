@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1513939291</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Bandit Bounty" />
+    <Text><![CDATA[Reed walks through the front gate of the compound and announces his presence to all the bandits. He claims that his raiding party was killed, and is looking for a new gang to join. Razor bolts up, and declares
+<i>"Any new initiates need to pay a tribute. What have you got?"</i>
+Reed enthusiastically claims that he has 8 kegs of alcohol in his rover, and he needs help carrying it all. Razor grins and beckons all the bandits to come join.
+All the bandits group up and follow Reed around a corner, where they are met by a barrage of gunfire from our crew. They returned fire, but no cover led to them all being eviscerated in seconds. 
+
+After handing it in Razors arm blade to a local MSS station, we received our Bounty Reward and continued onwards with our journey.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0.95" min="-60" max="-20" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="20" fuel="20" oxygen="20" rations="30" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

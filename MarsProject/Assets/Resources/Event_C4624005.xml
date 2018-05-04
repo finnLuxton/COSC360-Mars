@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[Meg’s eyes are filled with understanding. Without another word, she siphons off most of her oxygen, removes her helmet and exits the rover.
+
+Her body was never found.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="1" min="-100" max="-100" damageProduct="3" allowLethalBlows="True" />
+</Event>

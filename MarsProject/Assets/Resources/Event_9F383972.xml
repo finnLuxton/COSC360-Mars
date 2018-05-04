@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="event_easter_tree" />
+    <Text><![CDATA[the rover drives around and finds a tree
+
+isaac always loved trees, and gets out of the rover and goes to hug the tree
+
+the tree is happy, and opens a wormhole to the sister base. also the storm is gone.
+
+we go into the rover and drive into the wormhole, waving goodbye to the tree]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="1" min="100" max="100" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="100" fuel="100" oxygen="100" rations="100" time="100">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

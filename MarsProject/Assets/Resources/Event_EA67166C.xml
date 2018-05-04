@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1623770927</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Hostage Situation" />
+    <Text><![CDATA[Randy quickly draws, and fires 3 rounds at the bandits. The first two connect, dropping two of the bandits instantly. The third bandit, dodging the bullet, scuffles to his feet and rushes back to his rover, while firing bullets wildly behind him. He hops in his rover and speeds off into the distance.
+
+The crowd hangs their heads, and disperses. One farmer walked up to us, shouting
+<i>"What in the hell was that!? We didn't need your bloody help, now that bloody bandit is gunna tell the rest of his gang what happened. Just get the hell out of here!"</i>
+
+The atmosphere became unwelcoming, and we took this as our cue to leave.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0.6" min="-20" max="-10" damageProduct="1" allowLethalBlows="True" />
+</Event>

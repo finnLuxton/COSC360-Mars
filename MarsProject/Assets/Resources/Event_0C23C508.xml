@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Rover Travel" />
+    <Text><![CDATA[A public broadcast is picked up by the rover comms. A robotic voice requests,
+
+<i>"This is a public request from the <b>MSS</b> organization. A bounty has been placed on Razor and his Bloodhound Bandits. Crimes listed, Homicide, Aggravated Robbery, Extortion, and Public Indecency. Reward, sufficient living supplies. Return message for last known coordinates"</i>
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="-1">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Accept bounty, spending an extra day to hunt the bandits]]></Text>
+        <SuccessEvent id="5A3CE15B" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Refuse bounty]]></Text>
+        <SuccessEvent id="3712A6AD" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

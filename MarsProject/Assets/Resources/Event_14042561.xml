@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-1788646663</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Rouge AI" />
+    <Text><![CDATA[We couldn't wait around for this thing to hurt anyone else. All of us got into position with our weapons trained on the drone.  Once we opened fire, the drone quickly dissolved in the mess of bullets flying towards it, and eventually crumpled into an unrecognizable heap on the ground.
+
+After the commotion ended, a man came out of his house towards us.
+
+<i>"Finally someone showed up to deal with this shit. I wish we could have saved the drone at least, but I guess it?s better than nothing. Shame about Joel, he was just doing his weekly maintenance on it and the thing just went nuts, got him instantly. Since you guys really didn?t have to come, your welcome to grab some lunch from our storage."</i>
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="0" fuel="0" oxygen="0" rations="6" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

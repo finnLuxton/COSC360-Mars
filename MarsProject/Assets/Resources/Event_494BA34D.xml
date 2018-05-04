@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>41765067</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Hounders" />
+    <Text><![CDATA[We fired our rifles at them, hitting them enough that they were killed before they could reach us. 
+
+We decided to investigate the rover afterwards, and found it to be completely empty except for a small box of rations. 
+
+The smell of food must have attracted them. We returned to our rover, and continued onwards.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+</Event>

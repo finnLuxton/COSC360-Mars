@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Surrendering Rover" />
+    <Text><![CDATA[After scaling a sand dune, we spotted an overturned rover at its base. It was clearly battle worn, bearing scorch marks and bullet dents.
+As we approached it cautiously, our rover's comms fired up.
+ 
+"Please, no more! We surrender, just take whatever we have and don't hurt us!"
+
+Two oxygen tanks and a large tin of fuel is thrown from behind the overturned rover towards us.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="12" oxygen="12" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Accept their offer of surrender
+]]></Text>
+        <SuccessEvent id="C0D864AE" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Explain that we are friendly
+]]></Text>
+        <SuccessEvent id="6C6DE279" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

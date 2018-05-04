@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-406468999</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Bandit Holdup" />
+    <Text><![CDATA[In an effort to sneak attack them, we tossed a bag of alcohol out the door towards their rover. Four Bandits exited the vehicle to collect the bag. Kate accelerated the rover towards them, running one of them over.
+
+Shocked, the 3 other bandits open fire on our rover. We all returned fire from the doorway, until all 3 bandits lay dead on the ground. We collected our alcohol, looted the contents of their rover and moved onward with our journey.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0.8" min="-30" max="-20" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="15" fuel="6" oxygen="6" rations="6" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

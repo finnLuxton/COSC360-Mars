@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-1214301311</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[The man smiles as Miles approached 
+
+<i>"I see that glint in your eye lad, you wanna join in a couple of rounds of poker? Let's play for something to make it fun. Double or nothing."</i>
+
+He holds out a hand of cards towards Miles]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Someone grabs Miles by the hand and drags him away]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.6" alcohol="-10" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Miles bets with 10 Alcohol]]></Text>
+        <SuccessEvent id="6FAB8006" />
+        <FailureEvent id="A47D5A83" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.6" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[MIles bets with 10 Oxygen]]></Text>
+        <SuccessEvent id="DA1E56AC" />
+        <FailureEvent id="A47D5A83" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.6" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Miles bets with 10 Fuel]]></Text>
+        <SuccessEvent id="E7A734A1" />
+        <FailureEvent id="A47D5A83" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1855458458</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_The Shop" />
+    <Text><![CDATA[We pulled up to a MSS automated refill station. We can trade alcohol for different supplies and healing, or sell our supplies for extra alcohol.
+
+The automated AI states out of its staticy speakers,
+
+<i>"Welcome to your local <b>Mars Secure and Safety</b> refilling station. Services include and limited too. Buying of supplies. Selling of supplies. Healing of patients. Currency accepted, Mars grown alcohol"</i>
+
+Before anyone can begin trading, Meg mentions that when she was a kid, she learnt how to mess around with general MSS hardware. She hops out of the rover, finds a loose panel on the side of the station and begins ripping wires out. Suddenly, the prices advertised are set to a lower amount!]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="2" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Buy resources]]></Text>
+        <SuccessEvent id="6E980C9A" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Sell resources]]></Text>
+        <SuccessEvent id="9BD675C3" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Heal survivors]]></Text>
+        <SuccessEvent id="02495536" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Leave]]></Text>
+        <SuccessEvent id="987A8783" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

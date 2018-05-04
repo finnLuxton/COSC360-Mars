@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-1788646663</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Rouge AI" />
+    <Text><![CDATA[This town probably needs that drone to survive, destroying it won't solve their problem. In an attempt to trap it in an empty house, we all piled into one, and started throwing rocks the drone. 
+It took noticed, as charged at us, much faster than we anticipated. We weren't able to dodge out of the way, as pummeled right through all of us, whacking us all with its arms.
+
+We all quickly exited the house and barricaded the entrance. At least the drone was contained now.
+A civilian comes out of a building to talk to us.
+
+<i>"Finally someone showed up to deal with this shit. Thanks for not breaking it, and I hope you guys aren't hurt too badly. We can take it from here. You guys can have some food that we had in our storage."</i>
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0.6" min="-40" max="-20" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="0" fuel="0" oxygen="0" rations="16" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

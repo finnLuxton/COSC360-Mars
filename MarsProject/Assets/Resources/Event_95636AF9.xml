@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-1286506788</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Rouge AI" />
+    <Text><![CDATA[Once we reached the settlement, it seemed the distress signal was pretty spot on. 
+
+The drone had multiple large metal arms flailing wildly while moving erratically. What few people lived in the settlement were taking cover in their homes.
+A red splotchy mess is splattered across the dirt near the drone, that might have resembled a human at some point.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Shoot the drone with everything we have]]></Text>
+        <SuccessEvent id="14042561" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.65" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Try to subdue the drone physically]]></Text>
+        <SuccessEvent id="4DC7207E" />
+        <FailureEvent id="FF1297C2" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>CYBERPUNK</RequiredTrait>
+        <Text><![CDATA[<b>{Cyberpunk}</b> Meg uses her knowledge on drones to attempt to take it down peacefully]]></Text>
+        <SuccessEvent id="6646A2ED" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>TRIGGER_HAPPY</RequiredTrait>
+        <Text><![CDATA[<b>{Trigger Happy}</b> Randy attmepts to shoot out its main power source]]></Text>
+        <SuccessEvent id="A8F54A1F" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

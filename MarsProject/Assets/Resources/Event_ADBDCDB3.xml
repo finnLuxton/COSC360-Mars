@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>794392854</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Drinking Contest" />
+    <Text><![CDATA[Reed grabbed a few bottles of our strongest clear spirits, emptying one and filling it with water, giggling incessently to himself. He explained that they will challenge all the other rover occupants into a chugging match, wait until they are all unconcious, and loot all of their alcohol.
+
+Not 5 minutes later, the rover door swings open, and Reed falls to the ground with a blood covered face. Guess Reed needed to work on his drunken impression.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0.85" min="-40" max="-30" damageProduct="2" allowLethalBlows="False" />
+</Event>

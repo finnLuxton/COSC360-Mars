@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[Realising the hopelessness of the situation, Meg waited until her companions fell asleep and exited the rover.
+
+Meg walked into the sunset. 
+
+One less person meant we were able to get to the base in time. Her body was lost, but her courage and compassion will be with us until the day we die.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="1" min="-100" max="-100" damageProduct="3" allowLethalBlows="True" />
+</Event>

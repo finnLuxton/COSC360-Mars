@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1623770927</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Hostage Situation" />
+    <Text><![CDATA[Randy quickly draws catching the bandits by surprise. Three quick shots later, all three bandits lie dead in the dirt. The hostage scrambles to his feet and rushes towards the crowd.
+ 
+The farmers look shocked at what happened, with one angrily exclaiming
+ 
+"You stupid idiots! Why did you go and do that? They are only a collection party, the rest will come once they find out what happened."
+ 
+In a panic, some of the farmers drag the bodies away in an attempt to hide them. Its now clear nobody wants us to stick around. We looted the bandits' rover for their supplies, and left the settlement.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="6" fuel="6" oxygen="6" rations="12" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

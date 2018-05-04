@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-1214301311</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[Kate walked up to the man fixing the rover and asked what the problem was. Before he could say anything, Kate grabbed his tools, and stuffed her hands into the engine. About 10 minutes later, the man started up the rover as it sputtered to life. The man says to Kate,
+
+<i>”Holy crap! Our mechanic got eaten by hounders last week, so once the rover broke down I had no clue what I was doing. Thank you so much for helping out! Please take this oxygen as a gift.</i>
+
+We all returned to the rover, and continued heading out.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="0" fuel="0" oxygen="15" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1075218452</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Well Dressed Survivor" />
+    <Text><![CDATA[The Well Dressed Survivor quickly agrees to the wager with a glint in his monocle. Miles pulls a coin out of their pocket, and flips it in the air.
+
+<i>"Tails!"</i> the Well Dressed Survivor shouts.
+
+Miles catches the coin on their wrist, revealing that it landed on Tails.
+
+<i>"Oh yes oh my! The fates sure were good to me today!"</i> exclaims the Well Dressed Survivor.
+
+Keeping our end of the bargain, Miles forks over the supplies. We started up the rover to continue our journey onwards, as the Well Dressed Survivor places his winning within his rucksack, whistling to himself happily.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="-10" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

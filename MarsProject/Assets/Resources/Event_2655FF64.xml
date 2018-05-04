@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>28210431</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Bandit Toll Blockade" />
+    <Text><![CDATA[As Reed pops his head out of the rover door and locks eyes with the large man. The large mans face distorts with murderous intent, pulls out his weapon and takes a shot at Reed. This in turns makes the checkpoints patrols begin firing at the rover.
+Our tires screeched against the dirt as we booked it out of there, dodging as much fire as possible. 
+
+After we escaped, we had to spend an extra day searching for a new route. We were able to deduce that maybe Reed double-crossed some people in his bandit days.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0.9" min="-30" max="-20" damageProduct="2" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="0" fuel="0" oxygen="0" rations="0" time="-1">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

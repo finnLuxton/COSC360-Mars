@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Rover Travel" />
+    <Text><![CDATA[It’s weird to think we’re all that's left of our home. Just a band of desperate people who were looking for an odd job. We all signed up for this expedition party with specific jobs in mind, but I guess it doesn’t matter now. 
+
+Kate’s manning the wheel, keeping us on course for the sister base. Meg is having a pleasant conversation with Isaac. Miles sits next to them, flipping a coin over and over, constantly landing it on heads. Randy has passed out, still grasping his flask in his left hand and his rifle in his right. Meanwhile, Reed is trying to initiate conversation with Kate, but she isn't having any of it. ]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[<Continue>]]></Text>
+        <SuccessEvent id="EDF1B701" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

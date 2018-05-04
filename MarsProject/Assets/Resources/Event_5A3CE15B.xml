@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>203670792</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Bandit Bounty" />
+    <Text><![CDATA[After returning the message, coordinates appeared on our map.
+
+A days trip later, we reached a fortified scrap yard in the dead of night. Turning our rovers lights out, we made a stealthy approach. 
+
+One crew member scouted the small compound, and noted that there were 6 bandits scattered around, one of which having a blade protruding out of an amputated left arm. 
+
+This was the tell tale sign of the bandit called Razor whom the bounty was placed upon. He sat on a chair, whistling and sharpening his blade.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Open fire from cover, hoping to take the bandits by surprise]]></Text>
+        <SuccessEvent id="EB6AAD18" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[It's too risky, we decide to leave and let someone else take this bounty]]></Text>
+        <SuccessEvent id="C96F4D56" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>EXBANDIT</RequiredTrait>
+        <Text><![CDATA[{Ex-Bandit} Trick the gang into lowering their guard, and attacking them.]]></Text>
+        <SuccessEvent id="057A6662" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Bandit Holdup" />
+    <Text><![CDATA[While driving along a rocky path, a large red rover pulls out from a ditch in front of us, and blocks the path. A message is sent to our rover’s comms.
+
+<i>“Sorry lads, but you’ve stepped into Big Bryan’s territory! If you wanna live another day, then drop some alcohol outside.”</i>
+
+We could take them in a fight, but I doubt we would leave unscathed.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="-20" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Pay the alcohol]]></Text>
+        <SuccessEvent id="2546C38C" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Fight the bandits]]></Text>
+        <SuccessEvent id="B1835F3A" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

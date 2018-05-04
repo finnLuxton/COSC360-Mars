@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>45068568</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_An Interesting Bomb" />
+    <Text><![CDATA[With a shaky hand, the wire was snipped and all the lights on the bomb deactivated.
+
+We approached the crowd outside the building and alerted them all that the bomb had been defused. Cheering erupts from the crowd, as they all move into the building one after the other. The man who talked to us before approaches us and says, 
+
+<i>”Thank you all for helping us out. We can deal with the rest of it. I’ll quickly grab some supplies and place them in your rover for you as a reward. Good luck on your journey!”</i>]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="0" fuel="0" oxygen="20" rations="20" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

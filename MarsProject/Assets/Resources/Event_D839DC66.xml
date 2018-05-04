@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[Miles jokingly suggests they toss for it, producing his coin. 
+
+He flips the coin in the air, fixating his sight on it. Before it can land, Randy fires the gun at Miles head.
+
+The coin falls to the ground, landing on heads.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="1" min="-100" max="-100" damageProduct="11" allowLethalBlows="True" />
+</Event>

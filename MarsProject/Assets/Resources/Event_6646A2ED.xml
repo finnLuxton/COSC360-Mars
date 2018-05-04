@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-1788646663</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Rouge AI" />
+    <Text><![CDATA[Meg notices the model version of the drone, and remembers a rather large vulnerability in its design, in that if it's pushed over it has no way of getting back up. After alerting the civilians of this, they all rush to grab different kinds of rope and cable from their houses, and lassoed the drone, until it could struggle no more and was brought to the ground.
+One of the civilians said to Meg,
+
+<i>"Jeez, I knew we couldn't afford a better hunk a junk but this one really takes the cake. We really appreciate the effort guys. Here, we got some leftover fuel and a few boxes of food you guys are welcome to take as a thank you. Shame about Joey gettin' smushed and all. At least nobody else had to get hurt y'know?"</i>
+
+As the town began to clean up what used to be Joey, and we headed off.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="0" fuel="6" oxygen="0" rations="12" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

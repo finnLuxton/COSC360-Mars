@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1355128525</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_An Interesting Bomb" />
+    <Text><![CDATA[We eventually arrived at a small outpost, where everyone was huddled in a group outside of a building. As we approach, a man walks forward and exclaims, 
+
+<i>”Thank you for coming! It’s in that building. We were just unloading the boxes and it fell out. We don't want to tamper with it, but all of our food supplies are in there! If it explodes, we’re done for.”</i>
+
+We entered the building, and saw the large metal bomb with flashing lights on the floor.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[We realise we are way out of our depth, and leave.]]></Text>
+        <SuccessEvent id="F6E1E1DB" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Attempt to disarm the bomb, even though we have no training.]]></Text>
+        <SuccessEvent id="4A8767EE" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.9" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>PRACTICAL</RequiredTrait>
+        <Text><![CDATA[<b>{Practical}</b> Kate attempts to use her mechanical knowledge to disarm the bomb]]></Text>
+        <SuccessEvent id="02AFB118" />
+        <FailureEvent id="F2FA378F" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

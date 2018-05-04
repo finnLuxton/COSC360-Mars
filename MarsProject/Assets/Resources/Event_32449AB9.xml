@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1193402271</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="2" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="-1" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>CHARLATAN</RequiredTrait>
+        <Text><![CDATA[Heal Reed Willby for 5hp, costing 1 alcohol]]></Text>
+        <SuccessEvent id="8A64C788" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="-1" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>CYBERPUNK</RequiredTrait>
+        <Text><![CDATA[Heal Meg Render for 5hp, costing 1 alcohol]]></Text>
+        <SuccessEvent id="756CF555" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="-1" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>ALCOHOLIC</RequiredTrait>
+        <Text><![CDATA[Heal Randy Moore for 5hp, costing 1 alcohol]]></Text>
+        <SuccessEvent id="37746473" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[<b><NEXT></b>]]></Text>
+        <SuccessEvent id="2285FF89" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

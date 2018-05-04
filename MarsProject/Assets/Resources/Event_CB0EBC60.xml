@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>-616019086</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Surrounded" />
+    <Text><![CDATA[As we turned a corner of a cliff-face to reach the coordinates, we found ourselves surrounded by 3 Bandit Rovers armed to the teeth.
+
+The distress beacon was a trap, and judging by the number of them, they were well prepared for a fight.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Try and get the hell out of there.]]></Text>
+        <SuccessEvent id="9D2E8AF2" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[We aren’t escaping this. Fight to survive
+]]></Text>
+        <SuccessEvent id="4F126BD6" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>CAR_JOCKEY</RequiredTrait>
+        <Text><![CDATA[<b>{Car Jockey}</b> Kate used expert evasive maneuvers to get us out of here]]></Text>
+        <SuccessEvent id="0FE7FB0D" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

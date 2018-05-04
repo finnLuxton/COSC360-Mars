@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Playing Cards" />
+    <Text><![CDATA[While driving along, we spotted a stationary rover in the distance. 
+
+After approaching, it was quick to notice that they were a supply caravan, who seem have been broken down.
+Two of its occupants are sitting on rocks, playing a game of cards, while another was tending to the engine of the rover. 
+
+Another occupant was looking through the storage of their rover, checking something off a clipboard.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Keep on driving.]]></Text>
+        <SuccessEvent id="963E7266" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Go see the clipboard guy to see if there's anything we could trade]]></Text>
+        <SuccessEvent id="221C8C11" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>GAMBLER</RequiredTrait>
+        <Text><![CDATA[<b>{Gambler}</b> Miles rushes over to the guys playing cards to join in
+]]></Text>
+        <SuccessEvent id="1479B62E" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>CAR_JOCKEY</RequiredTrait>
+        <Text><![CDATA[<b>{Car Jockey}</b> Kate seeing the man having trouble with the rover heads over towards him.]]></Text>
+        <SuccessEvent id="E7C1F243" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

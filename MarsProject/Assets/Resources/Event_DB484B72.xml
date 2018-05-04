@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>True</RepeatEvent>
+    <Image source="Event_Rover Travel" />
+    <Text><![CDATA[Our rover’s comms fired up with a message playing,
+
+<i>“If anyone is out there, we need help! Our rover has broken down and we don't have a mechanic. Our supplies won't last us much longer, someone please respond!” </i>
+
+The coordinates of the message appear on our screen.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Ignore the distress call]]></Text>
+        <SuccessEvent id="CFD9906A" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.5" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Change course to help them out]]></Text>
+        <SuccessEvent id="C906A41F" />
+        <FailureEvent id="CB0EBC60" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

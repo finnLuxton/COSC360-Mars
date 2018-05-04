@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>934336322</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Sonar Filled With Signals" />
+    <Text><![CDATA[Even a few hounders would ruin anyone's day, and we weren?t willing to risk our lives for an extra day of travel. 
+
+We hunkered down, swapped stories and killed time until the coast was clear. 
+
+Once the sun had set, all of us were ready and rearing to get moving.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+</Event>

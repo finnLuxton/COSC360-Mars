@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1623770927</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Hostage Situation" />
+    <Text><![CDATA[Meg reasons with the bandits, explaining that killing them won't get their payment any quicker, they have learnt their lesson and to just leave with their heads held high.
+
+The bandits look at each other. The middle bandit grows a scowl on his face, spits on the civilian while shouting towards the crowd
+
+"You worthless low-lives ain't gunna get another chance. Make sure we get it next time!"
+
+The bandits walk towards their rover and drive off into the distance.
+
+We got a few thank yous from the crowd, a single man approaches and tosses us a bag, bows his head and goes back to work, then we continued onwards with our journey.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="12" fuel="12" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

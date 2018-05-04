@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Drinking Contest" />
+    <Text><![CDATA[As we were driving along, we saw in the distance a stationary rover. After approaching it, we received a message over the comms.
+
+<i>"Hey buddies, you got any  -hic- alcohol on board? We'll uhh... Play ya for it! Send out ya strongest liver!"</i>]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="2" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="-5" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Send someone over to the contest with a keg of homemade mars moonshine]]></Text>
+        <SuccessEvent id="5CDFEDC0" />
+        <FailureEvent id="00437785" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Decline the invitation and move on]]></Text>
+        <SuccessEvent id="9FCC6BDF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="-5" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>ALCOHOLIC</RequiredTrait>
+        <Text><![CDATA[<b>{Alcoholic}</b> Send Randy over with a keg of mars finest]]></Text>
+        <SuccessEvent id="EA68ABB0" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="0.7" alcohol="0" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>CHARLATAN</RequiredTrait>
+        <Text><![CDATA[<b>{Charlatan}</b> Reed's eyes gleam at an opportunity to swindle some supplies]]></Text>
+        <SuccessEvent id="72B0EC3E" />
+        <FailureEvent id="ADBDCDB3" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

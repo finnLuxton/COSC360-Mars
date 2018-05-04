@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1623770927</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Hostage Situation" />
+    <Text><![CDATA[One of our crewmembers attempts to reason with the bandits, promising them that the settlement will pay the oxygen price next time. This is met by nodding in the crowd.
+
+The middle bandit smiles and pushes the gun barrel further into the civilians back.
+
+<i>"None of you will learn that way then though, would'ya? Business is business."</i>
+
+The bandit fires, and the civilians body slumps to the ground. The bandits turn and leave to their rover, and drive off. 
+
+The crowd hangs their heads, and returns back to work.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+</Event>

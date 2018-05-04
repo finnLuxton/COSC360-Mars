@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>934336322</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Sonar Filled With Signals" />
+    <Text><![CDATA[Kate slams her foot on the accelerator straight into the middle of the hounders. 
+
+Before the beasts can even react, the rover is slicing through any gaps in the mass, and running over any hounders that happen to be in the way. 
+
+Some give chase, but are left in the dust as Kate expertly maneuvers out of the mass. Soon enough, the hounders give up the chase, and return back to their migration.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="30030" allowLethalBlows="True" />
+</Event>

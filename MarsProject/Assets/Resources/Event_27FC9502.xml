@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>2147483647</Parent>
+    <EventHead>True</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>True</RepeatEvent>
+    <Image source="Event_Rover Travel" />
+    <Text><![CDATA[Early in the morning, a large bang was heard inside the rover, and a warning light goes off on the dashboard. The temperature in the rover lowered, as it appears our onboard heating system has broken. We have the repair parts for it, but it would take a full day to fix.
+
+The temperature outside measures at -45C currently, and with our temperature dropping, we were running out of time.
+]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+    <Choice chance="1" alcohol="-12" fuel="0" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Drink a bunch of alcohol to stay warm, and when we stop for the night, repair it then.]]></Text>
+        <SuccessEvent id="7ED0B5B1" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+    <Choice chance="1" alcohol="0" fuel="0" oxygen="0" rations="0" time="-1">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[Stop the rover and spend the day repairing it.]]></Text>
+        <SuccessEvent id="68509D7C" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>

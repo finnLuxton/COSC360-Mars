@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>934336322</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="Event_Sonar Filled With Signals" />
+    <Text><![CDATA[After switching off any noise or light making equipment, we quitely drove around the mass.
+
+Either the hounders didn't see us, or they felt we weren't worth the effort, since we soon made it to the other side.
+
+As soon as we decided it was safe, we booked it the hell out of here.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0" min="-100" max="0" damageProduct="1" allowLethalBlows="True" />
+</Event>

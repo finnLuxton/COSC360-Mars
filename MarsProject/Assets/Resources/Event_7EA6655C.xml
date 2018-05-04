@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Event>
+    <Parent>1209796955</Parent>
+    <EventHead>False</EventHead>
+    <LockedEvent>False</LockedEvent>
+    <RepeatEvent>False</RepeatEvent>
+    <Image source="" />
+    <Text><![CDATA[Two bandits jump out of their rover and begin shooting at us. After a few seconds, we were able to get behind our rover for cover. 
+
+After both sides exchanging gunfire, we eventually came out on top.
+
+We quickly looted their rover for any fuel, hoping to get out of here before any of their friends turn up.]]></Text>
+    <RequiredTrait>NONE</RequiredTrait>
+    <Damage chance="0.9" min="-50" max="-30" damageProduct="30030" allowLethalBlows="True" />
+    <Choice chance="0.5" alcohol="0" fuel="25" oxygen="0" rations="0" time="0">
+        <RequiredTrait>NONE</RequiredTrait>
+        <Text><![CDATA[]]></Text>
+        <SuccessEvent id="7FFFFFFF" />
+        <FailureEvent id="7FFFFFFF" />
+        <UnlocksEvent id="7FFFFFFF" />
+    </Choice>
+</Event>
